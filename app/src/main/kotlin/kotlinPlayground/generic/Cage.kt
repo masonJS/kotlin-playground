@@ -20,7 +20,7 @@ fun main() {
      * IllegalArgumentException 에러 발생으로 예측할순 있지만 에러 발생의 행위를 없앨순 없었다.
      */
 
-    // 4. generic 을 사용하여 타입 호환을 지키는 방법 => Cage1.kt 파일 참고
+    // 제네릭을 사용하여 타입 호환을 지키는 방법 => Cage2.kt 파일 참고
 }
 
 class Cage {
