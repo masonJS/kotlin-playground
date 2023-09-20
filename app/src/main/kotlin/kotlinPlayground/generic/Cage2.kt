@@ -4,7 +4,7 @@ fun main() {
     val cage = Cage2<Shark>()
     cage.add(Shark("상어"))
 
-    // Cage 클래스의 문제 해결
+    // Cage.kt 에서의 문제 해결
     val shark: Shark = cage.getFirst()
 
     // -- 또다른 문제 발생
