@@ -12,7 +12,7 @@ fun main() {
     goldFish.add(GoldFish("금붕어"))
 
     val fish = Cage2<Fish>()
-    fish.moveFrom(goldFish) // 컴파일 에러 발생
+//    fish.moveFrom(goldFish) // 컴파일 에러 발생
     /**
      * Fish 와 GoldFish는 상속 관계지만 Cage2<Fish> 와 Cage2<GoldFish>는 상속 관계가 아니다. 아무 관계도 아니다.
      * 즉, Cage2는 무공변(invariant)하다.
