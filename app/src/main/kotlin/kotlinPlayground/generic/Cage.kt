@@ -9,6 +9,7 @@ fun main() {
 
     // 2. Type cast를 하면 컴파일 에러는 발생하지 않지만 런타임 에러 발생
     val shark2: Shark = cage.getFirst() as Shark // Type cast 하지만 위험하다.
+
     /**
      * 만약 아래와 같은 코드이면 런타임 에러 발생
      * val shark: Shark = cage.getFirst() as GoldFish // ClassCastException

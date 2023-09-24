@@ -1,6 +1,6 @@
 package kotlinPlayground.generic
 
-abstract class Animal (val name: String)
+abstract class Animal(val name: String)
 
 abstract class Fish(name: String) : Animal(name)
 

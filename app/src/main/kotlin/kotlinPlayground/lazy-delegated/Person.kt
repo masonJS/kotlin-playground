@@ -17,7 +17,7 @@ class Person {
 
 fun main() {
     val person = Person()
-    person.name = "김철수";
+    person.name = "김철수"
     println(person.isKim)
     println(person.makingName)
     println(person.firstName)
