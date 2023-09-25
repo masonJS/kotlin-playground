@@ -1,4 +1,4 @@
-package kotlinPlayground.`lazy-delegated`
+package kotlinPlayground.lazyDelegated
 
 class Person {
     lateinit var name: String

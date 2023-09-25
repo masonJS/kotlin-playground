@@ -1,6 +1,5 @@
 package kotlinPlayground.fp
 
-
 val add = fun Int.(other: Long): Int = this + other.toInt()
 
 fun main() {
