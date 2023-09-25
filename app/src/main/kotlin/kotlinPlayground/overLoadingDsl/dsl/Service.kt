@@ -1,5 +1,6 @@
 package kotlinPlayground.overLoadingDsl.dsl
 
+@YamlDsl
 class Service(val name: String) {
     private var image: String by onceNotNull()
     private var environments = mutableListOf<Environment>()

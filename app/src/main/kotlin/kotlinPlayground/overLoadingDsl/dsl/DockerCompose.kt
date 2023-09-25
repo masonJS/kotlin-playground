@@ -7,6 +7,7 @@ val yml = dockerCompose {
         env("USER" - "myUser")
         env("PASSWORD" - "myPassword")
         port(host = 5432, container = 999)
+        // YamlDsl 어노테이션으로 인해 오류 발생
 //        service(name = "db") {
 //            image { "posgresql" }
 //            env("USER" - "myUser")
@@ -22,6 +23,7 @@ fun dockerCompose(init: DockerCompose.() -> Unit): DockerCompose {
     return dockerCompose
 }
 
+@YamlDsl
 class DockerCompose {
     private var version: Int by onceNotNull()
     private val services = mutableListOf<Service>()
